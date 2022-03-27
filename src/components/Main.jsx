@@ -7,6 +7,7 @@ const Main = () => {
     const fetchedCategories = JSON.parse(JSON.stringify(queryCategories.data, ["categoryId", "category"]));
 
     console.log(fetchedCategories)
+    // この下にアプリケーションの本体を組み込む。
     return (
         <div className="container">
             <div style={{
@@ -18,6 +19,7 @@ const Main = () => {
                 width: "100%",
                 gap: "20px",
                 }}>
+
                 <Categories categories={fetchedCategories}/>
                 <Feed/>
             </div>
