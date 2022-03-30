@@ -77,6 +77,6 @@ const App = ({ isServerInfo }) => {
   );
 };
 
-export const Logo = () => <h4>Decentradit</h4>
+export const Logo = () => <h4>Mash DAO</h4>
 
 export default App;

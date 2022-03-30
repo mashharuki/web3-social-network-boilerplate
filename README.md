@@ -38,3 +38,9 @@ REACT_APP_MORALIS_SERVER_URL = https://xxxxxx.grandmoralis.com:2053/server
 ```sh
 yarn start
 ```
+
+### カテゴリを追加する場合
+  <a href="http://remix.ethereum.org/#optimize=false&evmVersion=istanbul&runs=200&version=soljson-v0.8.9+commit.e5eed63a.js">Remix</a>からメソッドを実行する。
+
+#### Munbai上のコントラクトのアドレス
+  0x9eCE03F901dFC53544E4abf610b6813c6305f262
